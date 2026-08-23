@@ -1,0 +1,62 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+*.spec
+
+# YOLO/Ultralytics generated data, experiments, and model weights
+runs/
+outputs/
+datasets/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.torchscript
+*.safetensors
+
+# Local reverse-engineering, smoke tests, previews, and scratch work
+work/
+g-i-t/
+
+# Application and framework state (contains machine-specific paths/settings)
+config/app_settings.json
+config/Ultralytics/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
